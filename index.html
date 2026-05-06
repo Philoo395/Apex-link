@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Link - High-Speed Fiber</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <nav class="p-6 bg-white shadow-sm flex justify-between items-center sticky top-0 z-50">
+        <h1 class="text-2xl font-bold text-blue-600 tracking-tight">APEX LINK</h1>
+        <div class="space-x-6 hidden md:block">
+            <a href="#services" class="hover:text-blue-600">Services</a>
+            <a href="#coverage" class="hover:text-blue-600">Coverage</a>
+            <a href="#order" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700">Order Now</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center bg-gradient-to-b from-blue-50 to-white">
+        <h2 class="text-5xl font-extrabold mb-4 text-blue-900">Unlimited Internet for Kilifi</h2>
+        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Experience 2.5x faster speeds with our newly upgraded infrastructure. No lag, no limits.</p>
+        <a href="#order" class="text-lg bg-blue-600 text-white px-10 py-4 rounded-xl shadow-lg hover:scale-105 transition-transform inline-block font-bold">Join the Network</a>
+    </header>
+
+    <section id="services" class="py-16 px-6 max-w-6xl mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-12">Our Packages</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-500 transition-colors">
+                <h4 class="text-xl font-bold mb-2">Bronze</h4>
+                <div class="text-4xl font-black mb-4">5 Mbps</div>
+                <ul class="space-y-3 mb-8 text-gray-600">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Unlimited Data</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Social Media & Browsing</li>
+                </ul>
+                <a href="#order" class="block text-center border-2 border-blue-600 text-blue-600 py-2 rounded-lg font-bold">Select Plan</a>
+            </div>
+            <div class="bg-blue-600 p-8 rounded-2xl shadow-xl text-white scale-105">
+                <h4 class="text-xl font-bold mb-2">Silver (Popular)</h4>
+                <div class="text-4xl font-black mb-4">10 Mbps</div>
+                <ul class="space-y-3 mb-8 opacity-90">
+                    <li><i class="fas fa-check mr-2"></i>Unlimited Data</li>
+                    <li><i class="fas fa-check mr-2"></i>HD Streaming & Netflix</li>
+                </ul>
+                <a href="#order" class="block text-center bg-white text-blue-600 py-2 rounded-lg font-bold">Select Plan</a>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <h4 class="text-xl font-bold mb-2">Gold</h4>
+                <div class="text-4xl font-black mb-4">20 Mbps</div>
+                <ul class="space-y-3 mb-8 text-gray-600">
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Unlimited Data</li>
+                    <li><i class="fas fa-check text-green-500 mr-2"></i>Gaming & Work from Home</li>
+                </ul>
+                <a href="#order" class="block text-center border-2 border-blue-600 text-blue-600 py-2 rounded-lg font-bold">Select Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="coverage" class="py-16 bg-gray-100">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h3 class="text-3xl font-bold mb-6">Areas We Cover</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Mnarani</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Pwani University Area</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kilifi Town</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Old Ferry</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="py-16 px-6 max-w-xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-2xl border border-gray-100">
+            <h3 class="text-2xl font-bold mb-6 text-center">Place Your Order</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="0b916ce4-0129-4f17-a598-30c636ae6f0d">
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2">Full Name</label>
+                    <input type="text" name="name" required class="w-full p-3 bg-gray-50 border rounded-xl focus:outline-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2">Phone Number</label>
+                    <input type="tel" name="phone" required class="w-full p-3 bg-gray-50 border rounded-xl focus:outline-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-bold mb-2">Building / Estate Name</label>
+                    <input type="text" name="location" required class="w-full p-3 bg-gray-50 border rounded-xl focus:outline-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-bold mb-2">Select Plan</label>
+                    <select
