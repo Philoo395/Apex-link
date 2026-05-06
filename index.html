@@ -52,26 +52,29 @@
                     <li><i class="fas fa-check text-green-500 mr-2"></i>Unlimited Data</li>
                     <li><i class="fas fa-check text-green-500 mr-2"></i>Gaming & Work from Home</li>
                 </ul>
-                <a href="#order" class="block text-center border-2 border-blue-600 text-blue-600 py-2 rounded-lg font-bold">Select Plan</a>
+                <a href="#order" class="block text-center border-2 border-blue-600 text-blue-600 py-2 roun-lg font-bold">Select Plan</a>
             </div>
         </div>
-    </section>
+        </section>
 
     <section id="coverage" class="py-16 bg-gray-100">
         <div class="max-w-4xl mx-auto text-center px-6">
-            <h3 class="text-3xl font-bold mb-6">Areas We Cover</h3>
+            <h3 class="text-3xl font-bold mb-6 text-blue-900">Areas We Cover</h3>
             <div class="flex flex-wrap justify-center gap-4">
                 <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Mnarani</span>
-                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Pwani University Area</span>
-                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kilifi Town</span>
-                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Old Ferry</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Misufini</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kibaoni</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kilifi Prison area</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kibarani</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Cashem</span>
+                <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium">Kiwandani</span>
             </div>
         </div>
     </section>
 
     <section id="order" class="py-16 px-6 max-w-xl mx-auto">
         <div class="bg-white p-8 rounded-3xl shadow-2xl border border-gray-100">
-            <h3 class="text-2xl font-bold mb-6 text-center">Place Your Order</h3>
+            <h3 class="text-2xl font-bold mb-6 text-center text-blue-900">Place Your Order</h3>
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="0b916ce4-0129-4f17-a598-30c636ae6f0d">
                 <div class="mb-4">
@@ -88,4 +91,20 @@
                 </div>
                 <div class="mb-6">
                     <label class="block text-sm font-bold mb-2">Select Plan</label>
-                    <select
+                    <select name="plan" class="w-full p-3 bg-gray-50 border rounded-xl focus:outline-blue-500">
+                        <option>Bronze (5 Mbps) - Ksh 1,000</option>
+                        <option>Silver (10 Mbps) - Ksh 1,500</option>
+                        <option>Gold (20 Mbps) - Ksh 2,700</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all">Submit Installation Request</button>
+            </form>
+        </div>
+        </section>
+
+    <a href="https://wa.me/254110565402" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
